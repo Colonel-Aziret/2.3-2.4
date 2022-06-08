@@ -1,3 +1,5 @@
+package TaskA;
+
 public class RAM {
     private double capacity;
     private String manufacturer;

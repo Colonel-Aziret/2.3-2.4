@@ -1,3 +1,5 @@
+package TaskA;
+
 public class USB {
     private float portType;
     private String id;

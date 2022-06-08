@@ -1,3 +1,5 @@
+package TaskA;
+
 import java.util.Arrays;
 
 public class Keyboard {

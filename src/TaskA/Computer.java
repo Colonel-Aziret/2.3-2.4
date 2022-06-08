@@ -1,3 +1,5 @@
+package TaskA;
+
 public class Computer {
     private Display display = new Display(14.2, "CHINA", "Liquid Retina XDR");
     private String stamp = "MacBook Pro 16";

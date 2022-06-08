@@ -1,3 +1,5 @@
+package TaskA;
+
 public class Display {
     private double diagonal;
     private String manufacturer;

@@ -1,3 +1,5 @@
+package TaskA;
+
 public class HardDrive {
     private double memorySize;
     private int diskDivided;
