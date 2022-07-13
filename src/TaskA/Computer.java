@@ -1,6 +1,7 @@
 package TaskA;
 
 public class Computer {
+    private User user = new User("Ramankulov Aziret Nurbekovich", "Admin", 19, "12345", false);
     private Display display = new Display(14.2, "CHINA", "Liquid Retina XDR");
     private String stamp = "MacBook Pro 16";
     private String color = "Space grey";
@@ -12,14 +13,24 @@ public class Computer {
 
     @Override
     public String toString() {
-        return "Computer: " + "\n" +
-                "display=" + display + "\n" +
-                "stamp='" + stamp + '\'' + "\n" +
-                "color='" + color + '\'' + "\n" +
-                "hardDrive=" + hardDrive + "\n" +
-                "ram=" + ram + "\n" +
-                "videoCore='" + videoCore + '\'' + "\n" +
-                "usb=" + usb + "\n" +
-                "keyboard=" + keyboard;
+        return "Computer{" +
+                "user=" + user +
+                "\n, display=" + display +
+                "\n, stamp='" + stamp + '\'' +
+                "\n, color='" + color + '\'' +
+                "\n, hardDrive=" + hardDrive +
+                "\n, ram=" + ram +
+                "\n, videoCore='" + videoCore + '\'' +
+                "\n, usb=" + usb +
+                "\n, keyboard=" + keyboard +
+                '}';
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }
